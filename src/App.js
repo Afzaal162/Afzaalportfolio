@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import portfolioImg from "./portfolio.png";
+import calendarImg from "./react-calender.png";
+import blogImg from "./blogging-website.png";
+import taskImg from "./task-manager.png";
 import {
   Menu,
   X,
@@ -145,22 +149,25 @@ const AboutSection = () => {
   );
 };
 
+
+
 // Projects Section Component
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Portfolio Website",
       description: "My portfolio website is a modern, responsive, and interactive platform designed to showcase my skills, projects, and journey as a React developer",
-      image: "/portfolio.png",
-      tech: ["HTML", "CSS", "JS", "& REACT"],
+      image: portfolioImg,
+      tech: ["HTML", "CSS", "JS", "React"],
       github: "https://github.com/Afzaal162",
       demo: "https://afzaal162.github.io/Afzaalportfolio/"
     },
 
+
     {
       title: "Calendar App",
       description: "A unique and stylish React app featuring Gregorian & Islamic calendar",
-      image: "/React Calender.png", // ✅ Just reference the path
+      image: calendarImg,
       tech: ["React", 'JavaScript'],
       github: "https://github.com/Afzaal162/Calenderapp",
       demo: "https://afzaal162.github.io/Calenderapp/"
@@ -168,7 +175,7 @@ const ProjectsSection = () => {
     {
       title: "Blogging Website",
       description: "A responsive blogging platform built with HTML, CSS, and JavaScript.",
-      image: "/Blogging Website.png",
+      image: blogImg,
       tech: ["Html", "CSS", "JavaScript"],
       github: "https://github.com/Afzaal162/H-Blogs",
       demo: "https://afzaal162.github.io/H-Blogs/"
@@ -176,7 +183,7 @@ const ProjectsSection = () => {
     {
       title: "Task Manager",
       description: "Smart task manager crafted with HTML, CSS, and JavaScript magic",
-      image: "/Task Manager.png",
+      image: taskImg,
       tech: ["Html", "CSS", "JavaScript"],
       github: "https://github.com/Afzaal162/Task-Managment",
       demo: "https://afzaal162.github.io/Task-Managment/"
