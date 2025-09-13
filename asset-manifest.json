@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Afzaalportfolio/static/css/main.bacdf470.css",
+    "main.js": "/Afzaalportfolio/static/js/main.0f0fbe22.js",
+    "static/js/453.ad7768ec.chunk.js": "/Afzaalportfolio/static/js/453.ad7768ec.chunk.js",
+    "index.html": "/Afzaalportfolio/index.html",
+    "main.bacdf470.css.map": "/Afzaalportfolio/static/css/main.bacdf470.css.map",
+    "main.0f0fbe22.js.map": "/Afzaalportfolio/static/js/main.0f0fbe22.js.map",
+    "453.ad7768ec.chunk.js.map": "/Afzaalportfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bacdf470.css",
+    "static/js/main.0f0fbe22.js"
+  ]
+}
