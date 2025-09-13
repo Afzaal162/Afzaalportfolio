@@ -149,12 +149,12 @@ const AboutSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution built with React, Node.js, and MongoDB",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
-      tech: ["React", "Node.js", "MongoDB"],
-      github: "#",
-      demo: "#"
+      title: "Portfolio Website",
+      description: "My portfolio website is a modern, responsive, and interactive platform designed to showcase my skills, projects, and journey as a React developer",
+      image: "/portfolio.png",
+      tech: ["HTML", "CSS", "JS", "& REACT"],
+      github: "https://github.com/Afzaal162",
+      demo: "https://afzaal162.github.io/Afzaalportfolio/"
     },
 
     {
@@ -165,14 +165,11 @@ const ProjectsSection = () => {
       github: "https://github.com/Afzaal162/Calenderapp",
       demo: "https://afzaal162.github.io/Calenderapp/"
     },
-
-
-
     {
       title: "Blogging Website",
       description: "A responsive blogging platform built with HTML, CSS, and JavaScript.",
       image: "/Blogging Website.png",
-      tech: ["Html", "CSS" , "JavaScript"],
+      tech: ["Html", "CSS", "JavaScript"],
       github: "https://github.com/Afzaal162/H-Blogs",
       demo: "https://afzaal162.github.io/H-Blogs/"
     },
@@ -180,7 +177,7 @@ const ProjectsSection = () => {
       title: "Task Manager",
       description: "Smart task manager crafted with HTML, CSS, and JavaScript magic",
       image: "/Task Manager.png",
-      tech: ["Html", "CSS" , "JavaScript"],
+      tech: ["Html", "CSS", "JavaScript"],
       github: "https://github.com/Afzaal162/Task-Managment",
       demo: "https://afzaal162.github.io/Task-Managment/"
     }
