@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/Afzaalportfolio/static/css/main.bacdf470.css",
-    "main.js": "/Afzaalportfolio/static/js/main.0f0fbe22.js",
+    "main.js": "/Afzaalportfolio/static/js/main.96e27f16.js",
     "static/js/453.ad7768ec.chunk.js": "/Afzaalportfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/blogging-website.png": "/Afzaalportfolio/static/media/blogging-website.ba6bddd46478883ea728.png",
+    "static/media/portfolio.png": "/Afzaalportfolio/static/media/portfolio.e2706e1ab6288f145aa8.png",
+    "static/media/react-calender.png": "/Afzaalportfolio/static/media/react-calender.82af462065e623257d39.png",
+    "static/media/task-manager.png": "/Afzaalportfolio/static/media/task-manager.a3e9d67299296f222ee5.png",
     "index.html": "/Afzaalportfolio/index.html",
     "main.bacdf470.css.map": "/Afzaalportfolio/static/css/main.bacdf470.css.map",
-    "main.0f0fbe22.js.map": "/Afzaalportfolio/static/js/main.0f0fbe22.js.map",
+    "main.96e27f16.js.map": "/Afzaalportfolio/static/js/main.96e27f16.js.map",
     "453.ad7768ec.chunk.js.map": "/Afzaalportfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bacdf470.css",
-    "static/js/main.0f0fbe22.js"
+    "static/js/main.96e27f16.js"
   ]
 }
