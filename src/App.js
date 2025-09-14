@@ -244,6 +244,16 @@ const ProjectsSection = () => {
 
 // Resume Section Component
 const ResumeSection = () => {
+ const downloadResume = () => {
+  const link = document.createElement('a');
+  link.href = process.env.PUBLIC_URL + '/Afzaal Hassan React Resume.pdf'; 
+  link.download = 'Afzaal Hassan React Resume.pdf'; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
+
   return (
     <section className="resume-section">
       <div className="resume-background"></div>
@@ -256,7 +266,11 @@ const ResumeSection = () => {
             Interested in my background and experience? Download my resume to learn more about my journey as a developer.
           </p>
 
-          <button className="btn-primary">
+          <button 
+            className="btn-primary"
+            onClick={downloadResume}
+            aria-label="Download resume PDF"
+          >
             <Download className="btn-icon" />
             Download CV
           </button>
@@ -265,6 +279,7 @@ const ResumeSection = () => {
     </section>
   );
 };
+
 
 // Contact Section Component
 const ContactSection = () => {
